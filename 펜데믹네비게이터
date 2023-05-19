@@ -1,0 +1,56 @@
+html
+-
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>펜데믹 네비게이터 (Pandemic Navigator)</title>
+    <link rel="stylesheet" href="펜데믹네비게이터.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+        .title {
+            font-size: 55px;
+            margin-left: 21%;
+            font-family: 'Gowun Batang', sans-serif;
+        }
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&display=swap');
+        .side_title {
+            font-size: 35px;
+            white-space: nowrap;
+            font-family: 'Gowun Batang', sans-serif;
+        }
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500&display=swap');
+        .covid {
+            font-size: 30px;
+            margin-top: 60px;
+            margin-left: 15%;
+            font-family: 'IBM Plex Sans KR', sans-serif;
+        }
+    </style>
+    <style>
+        .covid-19 {
+            font-size: 24px;
+            margin-left: 20.5%;
+            font-family: 'Gowun Batang', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">펜데믹 네비게이터<span class="under_bar"> __</span><span class="side_title">당신의 전염병 정보 승무원</span></div>
+    <div class="covid">코로나바이러스 감염증</div>
+    <div class="covid-19">covid-19</div>
+</body>
+</html>
+
+css
+-
+.under_bar {
+    font-size: 48px;
+    font-weight: bold;
+    white-space: nowrap;
+    letter-spacing: -2px;
+}
