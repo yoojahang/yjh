@@ -1,12 +1,10 @@
-html
--
 <!-- 기본 세팅 -->
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>펜데믹 네비게이터 (Pandemic Navigator)</title>
-    <link rel="stylesheet" href="PandemicNavigator.css">
+    <link rel="stylesheet" href="a.css">
 </head>
 
 <!-- /기본 세팅 -->
@@ -29,7 +27,9 @@ html
         }
     </style>
     <body>
-        <div class="title_margin"><div class="title">펜데믹 네비게이터<span class="under_bar"> __</span><span class="side_title">당신의 전염병 정보 승무원</span></div></div>
+        <div class="title_margin">
+            <div class="title">펜데믹 네비게이터<span class="under_bar"> __</span><span class="side_title">당신의 전염병 정보 승무원</span></div>
+        </div>
     </body>
 
     <!-- /제목 -->
@@ -42,7 +42,6 @@ html
             font-size: 47px;
             margin-top: 60px;
             padding-top: 7px;
-            text-align: center;
             letter-spacing: 3px;
             font-family: 'Do Hyeon', sans-serif;
         }
@@ -51,15 +50,44 @@ html
         @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Serif:ital@1&display=swap');
         .covid-19 {
             font-size: 37px;
-            text-align: center;
             margin-top: -2px;
             font-family: 'Noto Serif', serif;
         }
     </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+        .covid_accumulate {
+            font-size: 29px;
+            margin-top: 33px;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+    </style> 
+    <style>
+        .abcdefgh {
+            font-size: 24px;
+        }
+    </style>    
 <body>
-    <div class="covid_background-color"><div class="covid">코로나바이러스 감염증</div>
-    <div class="covid-19">covid-19</div></div>
-    <div class="covid_accumulate">확진자 - 684,248,151&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사망자 - 6,871,666&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;치명률 - 1.00%</div>
+    <div class="covid_background-color">
+        <div class="covid">코로나바이러스 감염증</div>
+        <div class="covid-19">COVID-19</div>
+        <div class="covid_accumulate">확진자 - 684,248,151&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사망자 - 6,871,666&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;치명률 - 1.00%</div>
+    </div>
+    <div class="covid_explanation">
+        <figure>
+            <img src="https://www.iru.org/sites/default/files/styles/desktop_1x_2000x600/public/2020-03/Alarming%20gap%20in%20global%20response%20to%20COVID-19.jpg?h=22393765&itok=ZovR8VlL" alt="COVID-19">
+            <div class="abcdefgh">
+                <figcaption class="a">발생년도&nbsp;&nbsp;-&nbsp;&nbsp;2019년<br><br>증상 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;열, 가래, 기침, 호흡곤란, 피로감, 근육통, 목의 통증, 두통<br><br>관련질환&nbsp;&nbsp;-&nbsp;&nbsp;폐렴, 상기도 감염, 인플루엔자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중증 급성 호흡기 증후군, 중동 호흡기 증후군(MERS)<br><br>진료과&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;감염내과, 호흡기내과</figcaption>
+                <figcaption class="b">발생년도&nbsp;&nbsp;-&nbsp;&nbsp;2019년<br><br>증상 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;열, 가래, 기침, 호흡곤란, 피로감, 근육통, 목의 통증, 두통<br><br>관련질환&nbsp;&nbsp;-&nbsp;&nbsp;폐렴, 상기도 감염, 인플루엔자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중증 급성 호흡기 증후군, 중동 호흡기 증후군(MERS)<br><br>진료과&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;감염내과, 호흡기내과</figcaption>
+                <figcaption class="c">발생년도&nbsp;&nbsp;-&nbsp;&nbsp;2019년<br><br>증상 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;열, 가래, 기침, 호흡곤란, 피로감, 근육통, 목의 통증, 두통<br><br>관련질환&nbsp;&nbsp;-&nbsp;&nbsp;폐렴, 상기도 감염, 인플루엔자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중증 급성 호흡기 증후군, 중동 호흡기 증후군(MERS)<br><br>진료과&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;감염내과, 호흡기내과</figcaption>
+                <figcaption class="d">발생년도&nbsp;&nbsp;-&nbsp;&nbsp;2019년<br><br>증상 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;열, 가래, 기침, 호흡곤란, 피로감, 근육통, 목의 통증, 두통<br><br>관련질환&nbsp;&nbsp;-&nbsp;&nbsp;폐렴, 상기도 감염, 인플루엔자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중증 급성 호흡기 증후군, 중동 호흡기 증후군(MERS)<br><br>진료과&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;감염내과, 호흡기내과</figcaption>
+                <figcaption class="e">발생년도&nbsp;&nbsp;-&nbsp;&nbsp;2019년<br><br>증상 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;열, 가래, 기침, 호흡곤란, 피로감, 근육통, 목의 통증, 두통<br><br>관련질환&nbsp;&nbsp;-&nbsp;&nbsp;폐렴, 상기도 감염, 인플루엔자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중증 급성 호흡기 증후군, 중동 호흡기 증후군(MERS)<br><br>진료과&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;감염내과, 호흡기내과</figcaption>
+                <figcaption class="f">발생년도&nbsp;&nbsp;-&nbsp;&nbsp;2019년<br><br>증상 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;열, 가래, 기침, 호흡곤란, 피로감, 근육통, 목의 통증, 두통<br><br>관련질환&nbsp;&nbsp;-&nbsp;&nbsp;폐렴, 상기도 감염, 인플루엔자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중증 급성 호흡기 증후군, 중동 호흡기 증후군(MERS)<br><br>진료과&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;감염내과, 호흡기내과</figcaption>
+                <figcaption class="g">발생년도&nbsp;&nbsp;-&nbsp;&nbsp;2019년<br><br>증상 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;열, 가래, 기침, 호흡곤란, 피로감, 근육통, 목의 통증, 두통<br><br>관련질환&nbsp;&nbsp;-&nbsp;&nbsp;폐렴, 상기도 감염, 인플루엔자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중증 급성 호흡기 증후군, 중동 호흡기 증후군(MERS)<br><br>진료과&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;감염내과, 호흡기내과</figcaption>
+                <figcaption class="h">발생년도&nbsp;&nbsp;-&nbsp;&nbsp;2019년<br><br>증상 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;열, 가래, 기침, 호흡곤란, 피로감, 근육통, 목의 통증, 두통<br><br>관련질환&nbsp;&nbsp;-&nbsp;&nbsp;폐렴, 상기도 감염, 인플루엔자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중증 급성 호흡기 증후군, 중동 호흡기 증후군(MERS)<br><br>진료과&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;감염내과, 호흡기내과</figcaption>
+            </div>
+        </figure>
+    </div>
 </body>
 
 <!-- /코로나 바이러스 -->
@@ -79,10 +107,56 @@ body {
     letter-spacing: -2px;
 }
 .title_margin {
-    margin-left: 32px;
+    margin-left: 38px;
     margin-top: 21px;
-    text-shadow: 1.3px 1px 3px rgba(12, 20, 12, 0.4);
+    text-shadow: 1px 0.7px 2px rgba(12, 20, 12, 0.4);
 }
 .covid_background-color {
     background-color: rgba(255, 0, 0, 0.13);
+    text-align: center;
 }
+.covid_explanation {
+    position: relative;
+  }
+  
+  .covid_explanation figure {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .covid_explanation figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    padding: 10px;
+  }
+  .a {
+    text-shadow: 2px 2px black;
+  }
+  .b {
+    text-shadow: -2px 2px black;
+  }
+  .c {
+    text-shadow: 2px -2px black;
+  }
+  .d {
+    text-shadow: -2px -2px black;
+  }
+  .e {
+    text-shadow: 2px 0 black;
+  }
+  .f {
+    text-shadow: -2px 0 black;
+  }
+  .g {
+    text-shadow: 0 2px black;
+  }
+  .h {
+    text-shadow: 0 -2px black;
+  }
+  .covid_explanation img {
+    margin: 0;
+    text-align: center;
+    filter: blur(2px) brightness(60%);
+  }
