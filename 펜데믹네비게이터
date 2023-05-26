@@ -41,7 +41,7 @@
         .covid {
             font-size: 47px;
             margin-top: 60px;
-            padding-top: 7px;
+            padding-top: 4px;
             letter-spacing: 3px;
             font-family: 'Do Hyeon', sans-serif;
         }
@@ -76,18 +76,298 @@
     <div class="covid_explanation">
         <figure>
             <img src="https://www.iru.org/sites/default/files/styles/desktop_1x_2000x600/public/2020-03/Alarming%20gap%20in%20global%20response%20to%20COVID-19.jpg?h=22393765&itok=ZovR8VlL" alt="COVID-19">
-            <div class="abcdefgh">
-                <figcaption class="a">발생년도&nbsp;&nbsp;-&nbsp;&nbsp;2019년<br><br>증상 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;열, 가래, 기침, 호흡곤란, 피로감, 근육통, 목의 통증, 두통<br><br>관련질환&nbsp;&nbsp;-&nbsp;&nbsp;폐렴, 상기도 감염, 인플루엔자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중증 급성 호흡기 증후군, 중동 호흡기 증후군(MERS)<br><br>진료과&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;감염내과, 호흡기내과</figcaption>
-                <figcaption class="b">발생년도&nbsp;&nbsp;-&nbsp;&nbsp;2019년<br><br>증상 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;열, 가래, 기침, 호흡곤란, 피로감, 근육통, 목의 통증, 두통<br><br>관련질환&nbsp;&nbsp;-&nbsp;&nbsp;폐렴, 상기도 감염, 인플루엔자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중증 급성 호흡기 증후군, 중동 호흡기 증후군(MERS)<br><br>진료과&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;감염내과, 호흡기내과</figcaption>
-                <figcaption class="c">발생년도&nbsp;&nbsp;-&nbsp;&nbsp;2019년<br><br>증상 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;열, 가래, 기침, 호흡곤란, 피로감, 근육통, 목의 통증, 두통<br><br>관련질환&nbsp;&nbsp;-&nbsp;&nbsp;폐렴, 상기도 감염, 인플루엔자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중증 급성 호흡기 증후군, 중동 호흡기 증후군(MERS)<br><br>진료과&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;감염내과, 호흡기내과</figcaption>
-                <figcaption class="d">발생년도&nbsp;&nbsp;-&nbsp;&nbsp;2019년<br><br>증상 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;열, 가래, 기침, 호흡곤란, 피로감, 근육통, 목의 통증, 두통<br><br>관련질환&nbsp;&nbsp;-&nbsp;&nbsp;폐렴, 상기도 감염, 인플루엔자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중증 급성 호흡기 증후군, 중동 호흡기 증후군(MERS)<br><br>진료과&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;감염내과, 호흡기내과</figcaption>
-                <figcaption class="e">발생년도&nbsp;&nbsp;-&nbsp;&nbsp;2019년<br><br>증상 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;열, 가래, 기침, 호흡곤란, 피로감, 근육통, 목의 통증, 두통<br><br>관련질환&nbsp;&nbsp;-&nbsp;&nbsp;폐렴, 상기도 감염, 인플루엔자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중증 급성 호흡기 증후군, 중동 호흡기 증후군(MERS)<br><br>진료과&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;감염내과, 호흡기내과</figcaption>
-                <figcaption class="f">발생년도&nbsp;&nbsp;-&nbsp;&nbsp;2019년<br><br>증상 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;열, 가래, 기침, 호흡곤란, 피로감, 근육통, 목의 통증, 두통<br><br>관련질환&nbsp;&nbsp;-&nbsp;&nbsp;폐렴, 상기도 감염, 인플루엔자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중증 급성 호흡기 증후군, 중동 호흡기 증후군(MERS)<br><br>진료과&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;감염내과, 호흡기내과</figcaption>
-                <figcaption class="g">발생년도&nbsp;&nbsp;-&nbsp;&nbsp;2019년<br><br>증상 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;열, 가래, 기침, 호흡곤란, 피로감, 근육통, 목의 통증, 두통<br><br>관련질환&nbsp;&nbsp;-&nbsp;&nbsp;폐렴, 상기도 감염, 인플루엔자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중증 급성 호흡기 증후군, 중동 호흡기 증후군(MERS)<br><br>진료과&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;감염내과, 호흡기내과</figcaption>
-                <figcaption class="h">발생년도&nbsp;&nbsp;-&nbsp;&nbsp;2019년<br><br>증상 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;열, 가래, 기침, 호흡곤란, 피로감, 근육통, 목의 통증, 두통<br><br>관련질환&nbsp;&nbsp;-&nbsp;&nbsp;폐렴, 상기도 감염, 인플루엔자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중증 급성 호흡기 증후군, 중동 호흡기 증후군(MERS)<br><br>진료과&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;감염내과, 호흡기내과</figcaption>
-            </div>
+            <figcaption>
+                <table class="abcdefgh">
+                    <tr>
+                        <th>발생년도</th>
+                        <td colspan="4">2019년</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">증상</th>
+                        <td>열</td>
+                        <td>가래</td>
+                        <td>기침</td>
+                        <td>호흡곤란</td>
+                    </tr>
+                    <tr>
+                        <td>피로감</td>
+                        <td>근육통</td>
+                        <td>목의 통증</td>
+                        <td>두통</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">관련질환</th>
+                        <td>폐렴</td>
+                        <td colspan="3">중증 급성 호흡기 증후군</td>
+                    </tr>
+                    <tr>
+                        <td>상기도 감염</td>
+                        <td>인플루엔자</td>
+                        <td colspan="2">중동 호흡기 증후군</td>
+                    </tr>
+                    <tr>
+                        <th>진료과</th>
+                        <td colspan="2">감염내과</td>
+                        <td colspan="2">호흡기내과</td>
+                    </tr>
+                </table>
+            </figcaption>
+            <figcaption>
+                <table class="abcdefgh">
+                    <tr>
+                        <th>발생년도</th>
+                        <td colspan="4">2019년</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">증상</th>
+                        <td>열</td>
+                        <td>가래</td>
+                        <td>기침</td>
+                        <td>호흡곤란</td>
+                    </tr>
+                    <tr>
+                        <td>피로감</td>
+                        <td>근육통</td>
+                        <td>목의 통증</td>
+                        <td>두통</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">관련질환</th>
+                        <td>폐렴</td>
+                        <td colspan="3">중증 급성 호흡기 증후군</td>
+                    </tr>
+                    <tr>
+                        <td>상기도 감염</td>
+                        <td>인플루엔자</td>
+                        <td colspan="2">중동 호흡기 증후군</td>
+                    </tr>
+                    <tr>
+                        <th>진료과</th>
+                        <td colspan="2">감염내과</td>
+                        <td colspan="2">호흡기내과</td>
+                    </tr>
+                </table>
+            </figcaption>
+            <figcaption>
+                <table class="abcdefgh">
+                    <tr>
+                        <th>발생년도</th>
+                        <td colspan="4">2019년</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">증상</th>
+                        <td>열</td>
+                        <td>가래</td>
+                        <td>기침</td>
+                        <td>호흡곤란</td>
+                    </tr>
+                    <tr>
+                        <td>피로감</td>
+                        <td>근육통</td>
+                        <td>목의 통증</td>
+                        <td>두통</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">관련질환</th>
+                        <td>폐렴</td>
+                        <td colspan="3">중증 급성 호흡기 증후군</td>
+                    </tr>
+                    <tr>
+                        <td>상기도 감염</td>
+                        <td>인플루엔자</td>
+                        <td colspan="2">중동 호흡기 증후군</td>
+                    </tr>
+                    <tr>
+                        <th>진료과</th>
+                        <td colspan="2">감염내과</td>
+                        <td colspan="2">호흡기내과</td>
+                    </tr>
+                </table>
+            </figcaption>
+            <figcaption>
+                <table class="abcdefgh">
+                    <tr>
+                        <th>발생년도</th>
+                        <td colspan="4">2019년</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">증상</th>
+                        <td>열</td>
+                        <td>가래</td>
+                        <td>기침</td>
+                        <td>호흡곤란</td>
+                    </tr>
+                    <tr>
+                        <td>피로감</td>
+                        <td>근육통</td>
+                        <td>목의 통증</td>
+                        <td>두통</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">관련질환</th>
+                        <td>폐렴</td>
+                        <td colspan="3">중증 급성 호흡기 증후군</td>
+                    </tr>
+                    <tr>
+                        <td>상기도 감염</td>
+                        <td>인플루엔자</td>
+                        <td colspan="2">중동 호흡기 증후군</td>
+                    </tr>
+                    <tr>
+                        <th>진료과</th>
+                        <td colspan="2">감염내과</td>
+                        <td colspan="2">호흡기내과</td>
+                    </tr>
+                </table>
+            </figcaption>
+            <figcaption>
+                <table class="abcdefgh">
+                    <tr>
+                        <th>발생년도</th>
+                        <td colspan="4">2019년</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">증상</th>
+                        <td>열</td>
+                        <td>가래</td>
+                        <td>기침</td>
+                        <td>호흡곤란</td>
+                    </tr>
+                    <tr>
+                        <td>피로감</td>
+                        <td>근육통</td>
+                        <td>목의 통증</td>
+                        <td>두통</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">관련질환</th>
+                        <td>폐렴</td>
+                        <td colspan="3">중증 급성 호흡기 증후군</td>
+                    </tr>
+                    <tr>
+                        <td>상기도 감염</td>
+                        <td>인플루엔자</td>
+                        <td colspan="2">중동 호흡기 증후군</td>
+                    </tr>
+                    <tr>
+                        <th>진료과</th>
+                        <td colspan="2">감염내과</td>
+                        <td colspan="2">호흡기내과</td>
+                    </tr>
+                </table>
+            </figcaption>
+            <figcaption>
+                <table class="abcdefgh">
+                    <tr>
+                        <th>발생년도</th>
+                        <td colspan="4">2019년</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">증상</th>
+                        <td>열</td>
+                        <td>가래</td>
+                        <td>기침</td>
+                        <td>호흡곤란</td>
+                    </tr>
+                    <tr>
+                        <td>피로감</td>
+                        <td>근육통</td>
+                        <td>목의 통증</td>
+                        <td>두통</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">관련질환</th>
+                        <td>폐렴</td>
+                        <td colspan="3">중증 급성 호흡기 증후군</td>
+                    </tr>
+                    <tr>
+                        <td>상기도 감염</td>
+                        <td>인플루엔자</td>
+                        <td colspan="2">중동 호흡기 증후군</td>
+                    </tr>
+                    <tr>
+                        <th>진료과</th>
+                        <td colspan="2">감염내과</td>
+                        <td colspan="2">호흡기내과</td>
+                    </tr>
+                </table>
+            </figcaption>
+            <figcaption>
+                <table class="abcdefgh">
+                    <tr>
+                        <th>발생년도</th>
+                        <td colspan="4">2019년</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">증상</th>
+                        <td>열</td>
+                        <td>가래</td>
+                        <td>기침</td>
+                        <td>호흡곤란</td>
+                    </tr>
+                    <tr>
+                        <td>피로감</td>
+                        <td>근육통</td>
+                        <td>목의 통증</td>
+                        <td>두통</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">관련질환</th>
+                        <td>폐렴</td>
+                        <td colspan="3">중증 급성 호흡기 증후군</td>
+                    </tr>
+                    <tr>
+                        <td>상기도 감염</td>
+                        <td>인플루엔자</td>
+                        <td colspan="2">중동 호흡기 증후군</td>
+                    </tr>
+                    <tr>
+                        <th>진료과</th>
+                        <td colspan="2">감염내과</td>
+                        <td colspan="2">호흡기내과</td>
+                    </tr>
+                </table>
+            </figcaption>
+            <figcaption>
+                <table class="abcdefgh">
+                    <tr>
+                        <th>발생년도</th>
+                        <td colspan="4">2019년</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">증상</th>
+                        <td>열</td>
+                        <td>가래</td>
+                        <td>기침</td>
+                        <td>호흡곤란</td>
+                    </tr>
+                    <tr>
+                        <td>피로감</td>
+                        <td>근육통</td>
+                        <td>목의 통증</td>
+                        <td>두통</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">관련질환</th>
+                        <td>폐렴</td>
+                        <td colspan="3">중증 급성 호흡기 증후군</td>
+                    </tr>
+                    <tr>
+                        <td>상기도 감염</td>
+                        <td>인플루엔자</td>
+                        <td colspan="2">중동 호흡기 증후군</td>
+                    </tr>
+                    <tr>
+                        <th>진료과</th>
+                        <td colspan="2">감염내과</td>
+                        <td colspan="2">호흡기내과</td>
+                    </tr>
+                </table>
+            </figcaption>
         </figure>
     </div>
+    <!-- </div>  진료과 감염내과, 호흡기내과 -->
+    <div class="a">안녕하세요</div>
 </body>
 
 <!-- /코로나 바이러스 -->
@@ -111,52 +391,74 @@ body {
     margin-top: 21px;
     text-shadow: 1px 0.7px 2px rgba(12, 20, 12, 0.4);
 }
-.covid_background-color {
-    background-color: rgba(255, 0, 0, 0.13);
-    text-align: center;
+
+.a {
+  text-shadow: 2px 2px black;
 }
-.covid_explanation {
-    position: relative;
-  }
-  
-  .covid_explanation figure {
+.b {
+  text-shadow: -2px 2px black;
+}
+.c {
+  text-shadow: 2px -2px black;
+}
+.d {
+  text-shadow: -2px -2px black;
+}
+.e {
+  text-shadow: 2px 0 black;
+}
+.f {
+  text-shadow: -2px 0 black;
+}
+.g {
+  text-shadow: 0 2px black;
+}
+.h {
+  text-shadow: 0 -2px black;
+}
+  .covid_explanation {
     position: relative;
     display: inline-block;
   }
   
-  .covid_explanation figcaption {
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: white;
-    padding: 10px;
-  }
-  .a {
-    text-shadow: 2px 2px black;
-  }
-  .b {
-    text-shadow: -2px 2px black;
-  }
-  .c {
-    text-shadow: 2px -2px black;
-  }
-  .d {
-    text-shadow: -2px -2px black;
-  }
-  .e {
-    text-shadow: 2px 0 black;
-  }
-  .f {
-    text-shadow: -2px 0 black;
-  }
-  .g {
-    text-shadow: 0 2px black;
-  }
-  .h {
-    text-shadow: 0 -2px black;
-  }
   .covid_explanation img {
-    margin: 0;
+    position: relative;
     text-align: center;
     filter: blur(2px) brightness(60%);
+    transform: scale(1.14);
+    margin-top: 10px;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .covid_explanation figcaption {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: rgba(255, 255, 255, 1);
+    padding: 10px;
+    background-color: rgba(185, 151, 151, 0);
+    z-index: 2;
+  }
+  
+  .covid_explanation table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .covid_explanation th,
+  .covid_explanation td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .covid_background-color {
+    position: relative;
+    background-color: rgba(255, 0, 0, 0.13);
+    text-align: center;
+    z-index: 2;
+    transform: scale(1.03);
+    padding-bottom: 11px;
+    margin-top: -21px;
   }
