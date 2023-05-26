@@ -1,6 +1,7 @@
 <!-- 기본 세팅 -->
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <title>펜데믹 네비게이터 (Pandemic Navigator)</title>
@@ -9,74 +10,90 @@
 
 <!-- /기본 세팅 -->
 
-    <!-- 제목 -->
+<!-- 제목 -->
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
-        .title {
-            font-size: 55px;
-            font-family: 'Gowun Batang', sans-serif;
-        }
-    </style>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&display=swap');
-        .side_title {
-            font-size: 35px;
-            white-space: nowrap;
-            font-family: 'Gowun Batang', sans-serif;
-        }
-    </style>
-    <body>
-        <div class="title_margin">
-            <div class="title">펜데믹 네비게이터<span class="under_bar"> __</span><span class="side_title">당신의 전염병 정보 승무원</span></div>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+    .title {
+        font-size: 55px;
+        font-family: 'Gowun Batang', sans-serif;
+    }
+</style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&display=swap');
+
+    .side_title {
+        font-size: 35px;
+        white-space: nowrap;
+        font-family: 'Gowun Batang', sans-serif;
+    }
+</style>
+
+<body>
+    <div class="title_margin">
+        <div class="title">펜데믹 네비게이터<span class="under_bar"> __</span><span class="side_title">당신의 전염병 정보 승무원</span>
         </div>
-    </body>
+    </div>
+</body>
 
-    <!-- /제목 -->
+<!-- /제목 -->
 
-    <!-- 코로나바이러스 -->
+<!-- 코로나바이러스 -->
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
-        .covid {
-            font-size: 47px;
-            margin-top: 60px;
-            padding-top: 4px;
-            letter-spacing: 3px;
-            font-family: 'Do Hyeon', sans-serif;
-        }
-    </style>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Serif:ital@1&display=swap');
-        .covid-19 {
-            font-size: 37px;
-            margin-top: -2px;
-            font-family: 'Noto Serif', serif;
-        }
-    </style>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
-        .covid_accumulate {
-            font-size: 29px;
-            margin-top: 33px;
-            font-family: 'Noto Sans KR', sans-serif;
-        }
-    </style> 
-    <style>
-        .abcdefgh {
-            font-size: 24px;
-        }
-    </style>    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+    .covid {
+        font-size: 47px;
+        margin-top: 60px;
+        padding-top: 4px;
+        letter-spacing: 3px;
+        font-family: 'Do Hyeon', sans-serif;
+    }
+</style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Serif:ital@1&display=swap');
+
+    .covid-19 {
+        font-size: 37px;
+        margin-top: -2px;
+        font-family: 'Noto Serif', serif;
+    }
+</style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+
+    .covid_accumulate {
+        font-size: 29px;
+        margin-top: 33px;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+</style>
+<style>
+    .abcdefgh {
+        font-size: 24px;
+    }
+</style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+    th {
+        margin: auto;
+    }
+</style>
+
 <body>
     <div class="covid_background-color">
         <div class="covid">코로나바이러스 감염증</div>
-        <div class="covid-19">COVID-19</div>
-        <div class="covid_accumulate">확진자 - 684,248,151&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사망자 - 6,871,666&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;치명률 - 1.00%</div>
+        <div class="covid_accumulate">확진자 - 684,248,151&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사망자 -
+            6,871,666&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;치명률 - 1.00%</div>
     </div>
     <div class="covid_explanation">
         <figure>
-            <img src="https://www.iru.org/sites/default/files/styles/desktop_1x_2000x600/public/2020-03/Alarming%20gap%20in%20global%20response%20to%20COVID-19.jpg?h=22393765&itok=ZovR8VlL" alt="COVID-19">
-            <figcaption>
+            <img src="https://www.iru.org/sites/default/files/styles/desktop_1x_2000x600/public/2020-03/Alarming%20gap%20in%20global%20response%20to%20COVID-19.jpg?h=22393765&itok=ZovR8VlL"
+                alt="COVID-19">
+            <figcaption class="a">
                 <table class="abcdefgh">
                     <tr>
                         <th>발생년도</th>
@@ -112,7 +129,7 @@
                     </tr>
                 </table>
             </figcaption>
-            <figcaption>
+            <figcaption class="b">
                 <table class="abcdefgh">
                     <tr>
                         <th>발생년도</th>
@@ -148,7 +165,7 @@
                     </tr>
                 </table>
             </figcaption>
-            <figcaption>
+            <figcaption class="c">
                 <table class="abcdefgh">
                     <tr>
                         <th>발생년도</th>
@@ -184,7 +201,7 @@
                     </tr>
                 </table>
             </figcaption>
-            <figcaption>
+            <figcaption class="d">
                 <table class="abcdefgh">
                     <tr>
                         <th>발생년도</th>
@@ -220,7 +237,7 @@
                     </tr>
                 </table>
             </figcaption>
-            <figcaption>
+            <figcaption class="e">
                 <table class="abcdefgh">
                     <tr>
                         <th>발생년도</th>
@@ -256,7 +273,7 @@
                     </tr>
                 </table>
             </figcaption>
-            <figcaption>
+            <figcaption class="f">
                 <table class="abcdefgh">
                     <tr>
                         <th>발생년도</th>
@@ -292,7 +309,7 @@
                     </tr>
                 </table>
             </figcaption>
-            <figcaption>
+            <figcaption class="g">
                 <table class="abcdefgh">
                     <tr>
                         <th>발생년도</th>
@@ -328,7 +345,7 @@
                     </tr>
                 </table>
             </figcaption>
-            <figcaption>
+            <figcaption class="h">
                 <table class="abcdefgh">
                     <tr>
                         <th>발생년도</th>
@@ -448,9 +465,12 @@ body {
   
   .covid_explanation th,
   .covid_explanation td {
-    border: 1px solid #ddd;
+    border: 1px solid rgb(255, 255, 255);
     padding: 8px;
     text-align: center;
+    /* width: 4%;
+    height: 20%; */
+
   }
   
   .covid_background-color {
